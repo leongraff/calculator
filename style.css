@@ -5,11 +5,23 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.tit {
-    text-align: center;
-    padding: 30px;
-    color: blue;
 
+
+body {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+.calculator {
+    width: 400px;
+    padding: 0.5em;
+    background-color: #c4c4c4;
+    color: #000;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
@@ -21,13 +33,9 @@ button {
 
 }
 
-.calc {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.tab1 {
-    border-spacing: 10px;
+.grid-botoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
 }

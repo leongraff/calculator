@@ -9,50 +9,44 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<header>
-    <h1 class="tit">calculando meu amor por vc S2
-    </h1>
-
-</header>
 
 <body>
 
-    <div class="container">
-        <div class="calc">
-            <table id="tab1">
-                <tr id="fora">
-                    <td><button id="number">1</button></td>
-                    <td><button id="number2">2</button></td>
-                    <td><button id="number3">3</button></td>
-                    <td><button>CE</button></td>
-                </tr>
-                <tr>
-                    <td><button id="number4">4</button></td>
-                    <td><button id="number5">5</button></td>
-                    <td><button id="number6">6</button></td>
-                    <td><button>=</button></td>
-
-                </tr>
-                <tr>
-                    <td><button id="number7">7</button></td>
-                    <td><button id="number8">8</button></td>
-                    <td><button id="number9">9</button></td>
-                    <td><button>/</button></td>
-                </tr>
-                <tr>
-                    <td><button>x</button></td>
-                    <td><button>+</button></td>
-                    <td><button>-</button></td>
-                    <td><button>S2</button></td>
-
-                </tr>
-            </table>
-            <p id="demo"></p>
-            <script src="script.js"></script>
+    <div class="calculator">
+        <!--here i add a div inside calculator just for the operations-->
+        <div id="operacoes">
+            <div id="operacao-anterior"></div>
+            <div id="operacao-atual"></div>
+        </div>
+        <div id="grid-botoes">
+            <button>%</button>
+            <button>CE</button>
+            <button>C</button>
+            <button>Del</button>
+            <button>1/x</button>
+            <button>x²</button>
+            <button>Root</button>
+            <button>/</button>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button>x</button>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button>-</button>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button>+</button>
+            <button>+/-</button>
+            <button class="numero">0</button>
+            <button class="numero">.</button>
+            <button class="equal-btn">=</button>
         </div>
     </div>
 
-
+<script src="script2.js"></script>
 
 </body>
 
